@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "pre-commit": "lint-staged"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -53,8 +52,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": ["eslint --fix"],
-    "src/**/*.vue": ["eslint --fix"]
+    "src/**/*.{js, vue, css}": ["eslint --fix"]
   },
   "browserslist": [
     "> 1%",
