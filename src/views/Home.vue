@@ -17,6 +17,8 @@ export default {
 	methods: {
     test () {
       console.log('aaa');
+      console.log('bbb');
+
     }
 	}
 };
