@@ -14,5 +14,10 @@ export default {
   components: {
     HelloWorld
   },
+	methods: {
+    test () {
+      console.log('aaa');
+    }
+	}
 };
 </script>
