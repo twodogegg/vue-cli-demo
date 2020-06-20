@@ -47,9 +47,16 @@
     },
     "rules": {}
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "src/**/*.js": "eslint",
-    "src/**/*.vue": "eslint"
+    "src/**/*.{js, vue, css}": [
+      "eslint",
+      "git add"
+    ]
   },
   "browserslist": [
     "> 1%",
