@@ -53,10 +53,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js, vue, css}": [
-      "eslint",
-      "git add"
-    ]
+    "src/**/*.js": "eslint",
+    "src/**/*.vue": "eslint"
   },
   "browserslist": [
     "> 1%",
