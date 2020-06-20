@@ -18,7 +18,7 @@ export default {
     test () {
       console.log('aaa');
       console.log('bbb');
-
+			console.log('cccc');
 
     }
 	}
