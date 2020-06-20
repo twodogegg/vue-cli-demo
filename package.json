@@ -53,7 +53,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js, vue, css}": ["eslint --fix"]
+    "src/**/*.js": ["eslint --fix"],
+    "src/**/*.vue": ["eslint --fix"]
   },
   "browserslist": [
     "> 1%",
